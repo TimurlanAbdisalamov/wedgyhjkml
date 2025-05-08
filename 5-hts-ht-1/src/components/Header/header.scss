@@ -1,0 +1,19 @@
+header {
+	background: #000;
+	width: 100vw;
+	display: flex;
+	padding: 30px;
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		nav {
+			display: flex;
+			gap: 50px;
+		}
+	}
+}
